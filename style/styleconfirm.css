@@ -1,0 +1,54 @@
+body{
+    background-image: url(/evaluation/images/hOMEPAGE.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+}
+/*  .container{
+    background-color: rgba(255,255,0,0.1);
+    backdrop-filter: blur(5px);
+    transform: translateY(70px);
+  
+    height: 550px;
+} */
+.details{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic; 
+}
+.confirmdisplay {
+    display: inline-block;
+    background-color: rgba(255,255,0,0.1);
+  font-size: large;
+    backdrop-filter: blur(5px);
+    transform: translateY(5px);
+  font-family: 'Times New Roman', Times, serif;
+     /* height: 250px; */
+    padding: 6rem 6rem;
+    color: rgb(24, 23, 22);
+    vertical-align: top;
+    }
+.clicktohome{ 
+   transform: translateY(20px); 
+   margin-left: 50%;
+   background-color: black;
+   color: aliceblue;
+  border-radius: 10px;
+    /* margin-left: 60rem; */
+
+}
+.thankyou{
+    transform: translateY(100px);
+    font-weight: 500;
+    font-size: large;
+}
+/* .confirmdisplay h3{
+    color: aliceblue;
+} */
+.confirmdisplay p{
+    font-size: larger;
+}
