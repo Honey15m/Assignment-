@@ -35,7 +35,7 @@ var secondlname=document.getElementById("secondlname");
 var secondage=document.getElementById("secondage");
 var name_regex = /^[a-zA-Z]{1,20}$/;
 var age_regex = /^(?:1[01][0-9]|120|1[7-9]|[2-9][0-9])$/;
-var email_regex = /\S+@\S+\.\S+/;
+var email_regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.+-]+\.com$/;
 var phone_regex = /^[0-9]{10}$/;
 
 submitbutton.disabled=true;
